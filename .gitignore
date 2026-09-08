@@ -1,0 +1,32 @@
+node_modules/
+dist/
+*.log
+*.log.*
+.env
+.env.*
+!.env.example
+
+# Local runtime state and generated evaluation evidence
+data/prompt-studio.db
+data/prompt-studio.db-*
+data/config.json
+data/ai-logs.jsonl
+data/eval-results/
+data/test-results/
+data/team-accounts-*.csv
+
+# Local editor and historical backup artifacts
+.backup/
+.backup_phase1/
+*.bak
+*.bak2
+*.bak3
+*.bak.phase3
+
+# Local IDE metadata and manually downloaded tunnels
+.qoder/
+.trae/
+tools/ngrok/
+
+# Private employee account provisioning data
+scripts/seed-company-accounts.ts
